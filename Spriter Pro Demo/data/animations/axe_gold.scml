@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="2">
+        <file id="0" name="2/i.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="2/spark.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="350" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                </key>
+                <key id="1" time="50">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                </key>
+                <key id="2" time="96">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                </key>
+                <key id="3" time="149">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="5" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                </key>
+                <key id="4" time="199">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="5" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="3" z_index="3"/>
+                </key>
+                <key id="5" time="250">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="6" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="4" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="5" z_index="3"/>
+                </key>
+                <key id="6" time="300">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="7" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="5" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="6" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="i">
+                <key id="0" spin="0">
+                    <object folder="0" file="0"/>
+                </key>
+                <key id="1" time="149" spin="0">
+                    <object folder="0" file="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="spark">
+                <key id="0">
+                    <object folder="0" file="1" x="15.575234" y="-25.614774" pivot_x="0.486726" pivot_y="0.466359" a="0"/>
+                </key>
+                <key id="1">
+                    <object folder="0" file="1" x="15.668384" y="-25.520673" pivot_x="0.489637" pivot_y="0.468319" a="0"/>
+                </key>
+                <key id="2" time="50">
+                    <object folder="0" file="1" x="15.684776" y="-25.547275" pivot_x="0.489637" pivot_y="0.468319" angle="163.130157" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="3" time="96">
+                    <object folder="0" file="1" x="15.694611" y="-25.563237" pivot_x="0.489637" pivot_y="0.468319" angle="264.872063" scale_y="1"/>
+                </key>
+                <key id="4" time="149">
+                    <object folder="0" file="1" x="15.701168" y="-25.573878" pivot_x="0.489637" pivot_y="0.468319" angle="332.7" a="0"/>
+                </key>
+                <key id="5" time="149" spin="0">
+                    <object folder="0" file="1" x="15.575234" y="-25.614774" pivot_x="0.486726" pivot_y="0.466359" angle="332.7" a="0"/>
+                </key>
+                <key id="6" time="250" spin="0">
+                    <object folder="0" file="1" x="15.575234" y="-25.614774" pivot_x="0.486726" pivot_y="0.466359" angle="332.7" a="0"/>
+                </key>
+                <key id="7" time="300">
+                    <object folder="0" file="1" x="15.575234" y="-25.614774" pivot_x="0.486726" pivot_y="0.466359" angle="332.7" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="spark_000">
+                <key id="0">
+                    <object folder="0" file="1" x="5.774052" y="-20.239252" pivot_x="0.489637" pivot_y="0.47028" a="0"/>
+                </key>
+                <key id="1" time="96">
+                    <object folder="0" file="1" x="5.774052" y="-20.239252" pivot_x="0.489637" pivot_y="0.47028" angle="107.718552" a="0"/>
+                </key>
+                <key id="2" time="149">
+                    <object folder="0" file="1" x="5.774052" y="-20.239252" pivot_x="0.489637" pivot_y="0.47028" angle="167.188169"/>
+                </key>
+                <key id="3" time="199">
+                    <object folder="0" file="1" x="5.774052" y="-20.239252" pivot_x="0.489637" pivot_y="0.47028" angle="269.302573" scale_x="1"/>
+                </key>
+                <key id="4" time="250" spin="0">
+                    <object folder="0" file="1" x="5.774052" y="-20.239252" pivot_x="0.489637" pivot_y="0.47028" angle="356.842636" scale_x="1" scale_y="1" a="0"/>
+                </key>
+                <key id="5" time="300">
+                    <object folder="0" file="1" x="5.774052" y="-20.239252" pivot_x="0.489637" pivot_y="0.47028" angle="356.842636" scale_x="1" scale_y="1" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="spark_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="17.691497" y="-34.646513" a="0"/>
+                </key>
+                <key id="1" spin="0">
+                    <object folder="0" file="1" x="2.209414" y="-9.125841" a="0"/>
+                </key>
+                <key id="2" time="199" spin="0">
+                    <object folder="0" file="1" x="2.209414" y="-9.125841" pivot_x="0" pivot_y="1" a="0"/>
+                </key>
+                <key id="3" time="199">
+                    <object folder="0" file="1" x="17.784648" y="-34.646513" pivot_x="0.486726" pivot_y="0.468319" a="0"/>
+                </key>
+                <key id="4" time="250">
+                    <object folder="0" file="1" x="17.599453" y="-34.632201" pivot_x="0.486726" pivot_y="0.468319" angle="171.16186" scale_y="1"/>
+                </key>
+                <key id="5" time="250">
+                    <object folder="0" file="1" x="17.691497" y="-34.646513" pivot_x="0.483815" pivot_y="0.468319" angle="171.16186" scale_y="1"/>
+                </key>
+                <key id="6" time="300">
+                    <object folder="0" file="1" x="17.691497" y="-34.646513" pivot_x="0.483815" pivot_y="0.468319" angle="268.118437" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

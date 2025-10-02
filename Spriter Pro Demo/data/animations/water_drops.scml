@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="2">
+        <file id="0" name="2/drop.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="100" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="50">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="2" time="100">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="drop">
+                <key id="0">
+                    <object folder="0" file="0" x="15.294766" y="-11.176252" pivot_x="0.477961" pivot_y="0.767161"/>
+                </key>
+                <key id="1" time="50">
+                    <object folder="0" file="0" x="26.298002" y="-34.800848" pivot_x="0.477961" pivot_y="0.767161" angle="21.41794" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="2" time="100" spin="-1">
+                    <object folder="0" file="0" x="43.518237" y="-40.353565" pivot_x="0.477961" pivot_y="0.767161" angle="44.132209" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="drop_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="15.059688" y="-11.532468" pivot_x="0.470615" pivot_y="0.75974"/>
+                </key>
+                <key id="1" time="50" spin="0">
+                    <object folder="0" file="0" x="15.059688" y="-36.775186" pivot_x="0.470615" pivot_y="0.75974"/>
+                </key>
+                <key id="2" time="100" spin="0">
+                    <object folder="0" file="0" x="14.736063" y="-56.805845" pivot_x="0.470615" pivot_y="0.75974"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="drop_001">
+                <key id="0" spin="-1">
+                    <object folder="0" file="0" x="15.059688" y="-11.294991" pivot_x="0.470615" pivot_y="0.764688"/>
+                </key>
+                <key id="1" time="50" spin="-1">
+                    <object folder="0" file="0" x="5.027325" y="-33.625088" pivot_x="0.470615" pivot_y="0.764688" angle="340.369983"/>
+                </key>
+                <key id="2" time="100">
+                    <object folder="0" file="0" x="-11.273135" y="-38.598687" pivot_x="0.470615" pivot_y="0.764688" angle="316.181004"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
